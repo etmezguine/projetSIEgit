@@ -5,13 +5,6 @@ import java.io.IOException;
 
 
 public class ReadCSV {
-	public static void main(String[] args) {
-		 
-		ReadCSV obj = new ReadCSV();
-		obj.run();
-	 
-	  }
-	
 	 public void run() {
 		 
 			String csvFile = "./src/test.csv";

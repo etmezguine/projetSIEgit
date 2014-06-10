@@ -1,10 +1,3 @@
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.io.InputStream;
-import java.net.URL;
-import java.net.URLConnection;
-
-
 public class Main {
 
 	/**
@@ -12,6 +5,8 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		System.out.println("larti commit comme une merde");
+		ReadCSV obj = new ReadCSV();
+		obj.run();
 
 	}
 
