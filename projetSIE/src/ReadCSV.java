@@ -18,7 +18,6 @@ public class ReadCSV {
 		 
 				        // use comma as separator
 					String[] element= line.split(cvsSplitBy);
-		 
 					System.out.println("Element : " + element[0]+" " + element[1]+" " + element[2]+" "+ element[3]+ " "+element[4]);
 				}
 		 
